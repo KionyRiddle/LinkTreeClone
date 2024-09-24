@@ -1,0 +1,58 @@
+#dupa {
+    border-radius: 100px;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-size: 38px;
+  }
+
+  .primaryColor {
+    color: #ffff00;
+  }
+
+  .secondaryColor {
+    color: #b30062;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+
+  .texter {
+    border-bottom: #ffff00 solid 3px;
+    display: inline-block;
+  }
+
+  body {
+    background: linear-gradient(to right, #0d0d0d 0%, black 99.9%, #ffff00 100%);
+  }
+  .oguem {
+    font-family: Trebuchet MS;
+    color: lightGray;
+    text-align: center;
+  }
+  
+  a {
+    background-color: black;
+    font-size: 30px;
+    border-right: yellow solid 1px;
+    border-bottom: none;
+    padding: 10px;
+    margin: 10px;
+    color: #585858;
+    text-align: left;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    transition: transform 0.5s ease;
+  }
+  a:hover {
+    color: #ffff00(0, 195, 255);
+    background-color: #b30062;
+    transform: translateX(20px);
+  }
